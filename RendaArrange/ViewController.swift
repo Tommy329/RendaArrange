@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var countLabel:UILabel!
     
-    var tapCount:Int=150
+    var tapCount:Int=100
     
 
     
@@ -35,11 +35,11 @@ class ViewController: UIViewController {
             
         }
         else if tapCount == -1 {
-            tapCount=150
-        } else if tapCount <= 50 {
+            tapCount=100
+        } else if tapCount <= 30 {
             
             imageView.image=UIImage(named:"egg2")
-        }else if tapCount <= 100 {
+        }else if tapCount <= 50 {
             
             imageView.image=UIImage(named:"egg1")
             
